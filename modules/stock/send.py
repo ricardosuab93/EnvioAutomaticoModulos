@@ -33,7 +33,7 @@ def send_stock_module(zip_path: Optional[str] = None) -> None:
         subject=subject,
         body=body,
         attachment_path=final_zip_path,
-        group="PRUEBA",
+        group="STOCK",
     )
 
 

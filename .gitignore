@@ -1,5 +1,5 @@
 # Python
-venv/
+venvmn/
 __pycache__/
 *.pyc
 
@@ -11,3 +11,4 @@ outputs/
 
 # OS
 .DS_Store
+
