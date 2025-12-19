@@ -16,6 +16,7 @@ RECIPIENT_GROUPS = {
         "miguel.sanchez1@pe.nestle.com",
         "lcabanillasc@nordigesa.com",
         "fernando.valderrama@pe.nestle.com",
+        "rsuarezb@nordigesa.com",
     ],
     "STOCK": [
         "Ingrid.Egoavil@pe.nestle.com",
@@ -24,12 +25,14 @@ RECIPIENT_GROUPS = {
         "miguel.sanchez1@pe.nestle.com",
         "lcabanillasc@nordigesa.com",
         "fernando.valderrama@pe.nestle.com",
+        "rsuarezb@nordigesa.com",
     ],
     "CARTERA": [
         "fredy.quispe@pe.nestle.com",
         "William.Soto@pe.nestle.com",
         "miguel.sanchez1@pe.nestle.com",
         "lcabanillasc@nordigesa.com",
+        "rsuarezb@nordigesa.com",
     ],
     "PRUEBA": [
         "lcabanillasc@nordigesa.com",

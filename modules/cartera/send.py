@@ -31,7 +31,7 @@ def send_cartera_module(zip_path: Optional[str] = None) -> None:
         subject=subject,
         body=body,
         attachment_path=final_zip_path,
-        group="CARTERA",
+        group="PRUEBA",
     )
 
     print("Cartera de clientes enviada correctamente.")
