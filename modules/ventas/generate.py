@@ -3,7 +3,7 @@ import zipfile
 import os
 
 from common.db import get_connection
-from common.dates import tomorrow_str, first_day_of_current_month
+from common.dates import tomorrow_date, first_day_of_month_from_date
 
 
 OUTPUT_DIR = os.path.join("outputs", "ventas")
@@ -16,8 +16,9 @@ def generate_ventas_module():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    report_date = tomorrow_str()
-    start_date = first_day_of_current_month()
+    report_dt = tomorrow_date()
+    report_date = report_dt.strftime("%d-%m-%Y")
+    start_date = first_day_of_month_from_date(report_dt) #first_day_of_current_month()
 
     param1 = 0
     param2 = start_date
